@@ -1,0 +1,23 @@
+{
+  "name": "farmpool",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pools small farmers' harvests into bulk orders. React + Node, in English and Tamil.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node build.mjs && node server/index.js",
+    "dev": "node dev.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
